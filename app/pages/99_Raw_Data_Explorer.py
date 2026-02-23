@@ -5,7 +5,7 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 import streamlit as st
 import pandas as pd
 from fe_coo_analytics.db import get_conn
-from app._sidebar import render_sidebar
+from app.app_utils import render_sidebar
 render_sidebar()
 
 st.set_page_config(page_title="Raw Data Explorer", layout="wide")

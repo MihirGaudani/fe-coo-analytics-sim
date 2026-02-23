@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-from app_utils import render_sidebar
+from app.app_utils import render_sidebar
 from fe_coo_analytics.db import get_conn
 
 render_sidebar()

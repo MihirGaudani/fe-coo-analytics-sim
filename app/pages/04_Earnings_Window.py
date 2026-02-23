@@ -1,6 +1,6 @@
 import streamlit as st
 
-from app_utils import render_sidebar, load_distinct_strategies
+from app.app_utils import render_sidebar, load_distinct_strategies
 from fe_coo_analytics.db import get_conn
 
 render_sidebar()
