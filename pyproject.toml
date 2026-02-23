@@ -1,0 +1,12 @@
+[project]
+name = "fe-coo-analytics-sim"
+version = "0.1.0"
+dependencies = ["duckdb", "pandas", "streamlit", "prefect", "pytest"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["fe_coo_analytics*"]

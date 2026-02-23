@@ -1,0 +1,41 @@
+ticker,sector,country,currency
+AFN,Energy,US,USD
+AFQ,Materials,JP,JPY
+CQU,Industrials,US,USD
+CWP,Technology,JP,JPY
+FAI,Energy,CA,CAD
+FGY,Technology,US,USD
+FHC,Financials,US,USD
+FTR,Real Estate,UK,GBP
+GCH,Industrials,US,USD
+GFY,Energy,US,USD
+GGO,Communications,US,USD
+GNE,Financials,US,USD
+GPX,Real Estate,US,USD
+KBJ,Utilities,US,USD
+KFZ,Consumer,US,USD
+KXL,Financials,US,USD
+LYW,Financials,US,USD
+NCB,Industrials,US,USD
+OFP,Materials,US,USD
+PSB,Industrials,US,USD
+QAH,Healthcare,US,USD
+QCL,Communications,US,USD
+QJJ,Consumer,US,USD
+QPD,Real Estate,US,USD
+QPE,Healthcare,US,USD
+RNG,Financials,US,USD
+RVU,Utilities,US,USD
+SEJ,Financials,FR,EUR
+SIE,Real Estate,US,USD
+USN,Industrials,US,USD
+VAU,Industrials,US,USD
+VQW,Technology,US,USD
+WAS,Industrials,US,USD
+WIR,Consumer,US,USD
+XCK,Energy,US,USD
+XWH,Communications,FR,EUR
+YIC,Technology,US,USD
+ZJO,Real Estate,US,USD
+ZNZ,Consumer,DE,EUR
+ZQO,Energy,UK,GBP
