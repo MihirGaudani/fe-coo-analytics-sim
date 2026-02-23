@@ -1,7 +1,14 @@
 [project]
 name = "fe-coo-analytics-sim"
 version = "0.1.0"
-dependencies = ["duckdb", "pandas", "streamlit", "prefect", "pytest"]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "streamlit>=1.30",
+  "duckdb>=0.10",
+  "pandas>=2.0",
+  "python-dotenv>=1.0",
+  "prefect==3.6.18"
+]
 
 [build-system]
 requires = ["setuptools"]
