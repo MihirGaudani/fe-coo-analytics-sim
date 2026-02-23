@@ -1,7 +1,10 @@
+import sys
+from pathlib import Path
+sys.path.append(str(Path(__file__).resolve().parents[1]))
 from dotenv import load_dotenv
 load_dotenv()
 import streamlit as st
-from app_utils import render_sidebar
+from app.app_utils import render_sidebar
 render_sidebar()
 import pandas as pd
 
