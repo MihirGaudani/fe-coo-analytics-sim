@@ -1,7 +1,36 @@
+# Python / venv
 .venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Packaging / builds
+*.egg-info/
+dist/
+build/
+
+# Testing / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Data / DB artifacts
+data/
 *.db
 *.duckdb
+
+# Env / secrets
 .env
+.env.*
+!.env.example
+
+# Streamlit
 .streamlit/
+
+# OS / editor noise
+.DS_Store
+.vscode/
+.idea/
+*.log
