@@ -3,6 +3,16 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 from dotenv import load_dotenv
 load_dotenv()
+from pathlib import Path
+import os
+import streamlit as st
+
+DB_PATH = Path(os.getenv("FE_COO_DB_PATH", "data/fe_coo.duckdb"))
+if not DB_PATH.exists():
+    st.info("First run on server: building synthetic data + mart tables…")
+    from pipelines.build_mart_flow import build_mart
+    build_mart(regenerate_raw=True)
+    st.success("Build complete.")
 import streamlit as st
 from app.app_utils import render_sidebar
 render_sidebar()
