@@ -1,5 +1,5 @@
 ## Live Demo
-Streamlit App: https://<your-app>.streamlit.app
+Streamlit App: [https://<your-app>.streamlit.app](https://mihirgaudani-fe-coo-analytics-sim-apphome-awyfn9.streamlit.app/)
 
 # FE-COO Analytics Simulator (Schonfeld-style)
 
