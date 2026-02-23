@@ -1,3 +1,6 @@
+## Live Demo
+Streamlit App: https://<your-app>.streamlit.app
+
 # FE-COO Analytics Simulator (Schonfeld-style)
 
 End-to-end simulation of an FE-COO analytics workflow:
