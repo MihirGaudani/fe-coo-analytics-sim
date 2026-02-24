@@ -1,7 +1,7 @@
 ## Live Demo
 Streamlit App: [https://<your-app>.streamlit.app](https://mihirgaudani-fe-coo-analytics-sim-apphome-awyfn9.streamlit.app/)
 
-# FE-COO Analytics Simulator (Schonfeld-style)
+# FE-COO Analytics Simulator
 
 End-to-end simulation of an FE-COO analytics workflow:
 - raw trade/price/liquidity/earnings inputs (synthetic)
